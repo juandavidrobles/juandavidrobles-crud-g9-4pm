@@ -1,7 +1,6 @@
 from openpyxl import load_workbook
 
 filename = './data.xlsx'
-file = load_workbook(filename)
 
 # 1: Read
 def read_records(status: str = 'Todas')->list:
